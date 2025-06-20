@@ -15,7 +15,7 @@ Players can select a category of questions and must answer as many questions as 
 - In the main menu:
   - A **brief instruction** explains how to play the game.
   - A **SeekBar** allows the player to set the time limit for the game.
-  - ![ezgif-8f461de5fd78cf](https://github.com/user-attachments/assets/931214c9-ba70-44f7-a895-0255a58ef220)
+    ![ezgif-8f461de5fd78cf](https://github.com/user-attachments/assets/931214c9-ba70-44f7-a895-0255a58ef220)
   - A **RecyclerView** displays all available categories (customizable and extendable).
     ![ezgif-87ed8cb048407a](https://github.com/user-attachments/assets/07122541-7a0b-483c-adb8-153d5201a099)
 - After selecting a category, the **game screen** appears:
