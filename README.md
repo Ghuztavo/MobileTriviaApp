@@ -63,7 +63,17 @@ Players can select a category of questions and must answer as many questions as 
 - Android Studio
 - Kotlin or Java (depending on your implementation)
 - Android device or emulator
-
+- Versions needed:
+    - agp = "8.10.0"
+    - kotlin = "2.0.21"
+    - coreKtx = "1.16.0"
+    - junit = "4.13.2"
+    - junitVersion = "1.2.1"
+    - espressoCore = "3.6.1"
+    - appcompat = "1.7.1"
+    - material = "1.12.0"
+    - activity = "1.10.1"
+    - constraintlayout = "2.2.1"
 
 
 
