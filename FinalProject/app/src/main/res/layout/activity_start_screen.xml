@@ -13,7 +13,7 @@
         android:layout_width="326dp"
         android:layout_height="93dp"
         android:layout_marginTop="196dp"
-        android:text="Game Name"
+        android:text="Trivia Game"
         android:textColor="#4B99BD"
         app:autoSizeTextType="uniform"
         app:layout_constraintEnd_toEndOf="parent"

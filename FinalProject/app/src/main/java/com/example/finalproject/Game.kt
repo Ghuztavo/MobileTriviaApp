@@ -20,6 +20,7 @@ class Game : AppCompatActivity() {
     lateinit var bAnswer3: Button
     lateinit var bAnswer4: Button
     lateinit var scoreTextView: TextView
+    lateinit var backButton: Button
 
     private lateinit var questions: MutableList<Question>
     private var currentQuestion: Question? = null
@@ -46,6 +47,10 @@ class Game : AppCompatActivity() {
         startTimer()
         loadNextQuestion()
 
+        backButton = findViewById(R.id.goBackButton_id)
+        backButton.setOnClickListener {
+            finish()
+        }
     }
 
     private fun initializeViews() {
@@ -128,7 +133,7 @@ class Game : AppCompatActivity() {
     private fun resetButtonColors() {
         val buttons = listOf(bAnswer1, bAnswer2, bAnswer3, bAnswer4)
         for (button in buttons) {
-            button.setBackgroundColor(getColor(R.color.default_button)) // You can define this in colors.xml
+            button.setBackgroundColor(getColor(R.color.default_button))
         }
     }
 
