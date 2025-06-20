@@ -39,11 +39,12 @@
         android:id="@+id/textView3"
         android:layout_width="277dp"
         android:layout_height="43dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="16dp"
         android:text="Answer as many questions as you can before time runs out"
         android:textAlignment="center"
         android:textColor="#4B99BD"
         app:layout_constraintEnd_toEndOf="@+id/textView2"
+        app:layout_constraintHorizontal_bias="0.529"
         app:layout_constraintStart_toStartOf="@+id/textView2"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
